@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="6b58976c-8ad8-4886-a303-3a047d76f38b" name="schoolmanagement" url="jdbc:mysql://localhost/schoolmanagement?useSSL=false&amp;allowMultiQueries=true&amp;serverTimezone=UTC" driverClass="com.mysql.cj.jdbc.Driver" />
+    </data-sources>
+    <data-source-infos>
+      <data-source-info id="6b58976c-8ad8-4886-a303-3a047d76f38b" persistence-unit-name="Default" />
+    </data-source-infos>
+  </component>
+</project>

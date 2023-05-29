@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.url">jdbc:sqlserver://NGOCTRINH:1433;databaseName=DB_DKHP;encrypt=true;trustServerCertificate=true;</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+		<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">123456@A</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<mapping class="api.POJO.Subject" />
+		<mapping class="api.POJO.Student" />
+		<mapping class="api.POJO.Account" />
+		<mapping class="api.POJO.Classname" />
+		<mapping class="api.POJO.Course" />
+		<mapping class="api.POJO.CourseRegistration" />
+		<mapping class="api.POJO.Courseattend" />
+		<mapping class="api.POJO.Role" />
+		<mapping class="api.POJO.Semester" />
+		<mapping class="api.POJO.Teacher" />
+		<mapping class="api.POJO.Currentsemester" />
+
+	</session-factory>
+</hibernate-configuration>
